@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>my_monokai_dark</string>
+	<string>Monokai Dark</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -51,7 +51,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#75715E</string>
+				<string>#696969</string>
 			</dict>
 		</dict>
 		<dict>
@@ -107,8 +107,10 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
-			</dict>
+				<string>bold</string>
+		        <key>foreground</key>
+		        <string>#fff</string>
+		    </dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -119,6 +121,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#F92672</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -164,7 +168,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>bold</string>
 				<key>foreground</key>
 				<string>#66D9EF</string>
 			</dict>
@@ -177,7 +181,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string>bold</string>
 				<key>foreground</key>
 				<string>#A6E22E</string>
 			</dict>
@@ -190,7 +194,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic underline</string>
+				<string>bold italic</string>
 				<key>foreground</key>
 				<string>#A6E22E</string>
 			</dict>
@@ -216,9 +220,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#FD971F</string>
+				<string>#fff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -255,9 +259,22 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#66d9ef</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Method call</string>
+			<key>scope</key>
+			<string>meta.function-call - punctuation - meta.function-call.arguments - variable</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				<key>foreground</key>
+				<string>#fff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -268,9 +285,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string />
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#66d9ef</string>
 			</dict>
 		</dict>
 		<dict>
@@ -294,9 +311,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>bold italic</string>
 				<key>foreground</key>
-				<string>#66D9EF</string>
+				<string>#66d9ef</string>
 			</dict>
 		</dict>
 		<dict>
@@ -322,7 +339,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#F8F8F0</string>
+				<string>#fff</string>
 			</dict>
 		</dict>
 		<dict>
